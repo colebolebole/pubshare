@@ -14,7 +14,7 @@
   </div>
   <form action="/" method="POST" enctype="multipart/form-data">
     <input name="file" type="file" />
-    <button>Submit!</button>
+    <button>Upload</button>
     <hr />
     <pre id="pre"></pre>
   </form>
@@ -31,7 +31,7 @@
             pre.textContent = `${percentCompleted}%`;
           }
         }).then (data => {
-          alert('done');
+          alert('File Successfully Uploaded');
         }).catch(e => {
           alert(e)
         });
