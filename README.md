@@ -4,6 +4,9 @@ a public file sharing service based off of moshfeu's project local serve - https
 
 ---
 
-- Prerequisites: Node.js
+Prerequisites
+
+- Yarn (Installer Packaged)
+- Node.js
 
 
